@@ -55,6 +55,23 @@
             color: #6c757d;
         }
 
+        .section-title {
+            text-align: center;
+            margin: 3rem 0 2rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #dee2e6;
+        }
+
+        .project-card {
+            margin-bottom: 2rem;
+            transition: transform 0.3s;
+            height: 100%;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+        }
+
         @media (max-width: 768px) {
             .profile-section {
                 margin-bottom: 2rem;
@@ -80,7 +97,7 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Projects</a>
+                        <a class="nav-link" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="cv.pdf" target="_blank">CV</a>
@@ -119,7 +136,80 @@
             <!-- Right column: Description -->
             <div class="col-md-8">
                 <h1>Profile</h1>
-                Student in Master 2 Artificial Intelligence : Foundation and advanced Methods in Machine Learning
+                <p>Student in Master 2 Artificial Intelligence: Foundation and advanced Methods in Machine Learning</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div class="container" id="projects">
+        <!-- Internship Projects -->
+        <h2 class="section-title">Internship Projects</h2>
+        <div class="row">
+            <!-- Project 1 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card project-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Project Title 1</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Company Name - Duration</h6>
+                        <p class="card-text">Brief description of the project and your contributions. You can add technologies used and key achievements.</p>
+                        <a href="#" class="card-link">View details</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 2 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card project-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Project Title 2</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Company Name - Duration</h6>
+                        <p class="card-text">Brief description of the project and your contributions. You can add technologies used and key achievements.</p>
+                        <a href="#" class="card-link">View details</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Add more projects as needed -->
+        </div>
+
+        <!-- School Projects -->
+        <h2 class="section-title">School Projects</h2>
+        <div class="row">
+            <!-- Project 1 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card project-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Machine Learning Project</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Course Name - Year</h6>
+                        <p class="card-text">Description of the school project, including objectives, methods used, and results achieved.</p>
+                        <a href="#" class="card-link">View details</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 2 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card project-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Data Science Project</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Course Name - Year</h6>
+                        <p class="card-text">Description of the school project, including objectives, methods used, and results achieved.</p>
+                        <a href="#" class="card-link">View details</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 3 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card project-card">
+                    <div class="card-body">
+                        <h5 class="card-title">AI Research Project</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Course Name - Year</h6>
+                        <p class="card-text">Description of the school project, including objectives, methods used, and results achieved.</p>
+                        <a href="#" class="card-link">View details</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
